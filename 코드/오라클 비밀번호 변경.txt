@@ -1,0 +1,17 @@
+C:\Users\user>sqlplus /nolog
+
+SQL*Plus: Release 18.0.0.0.0 - Production on 월 12월 12 12:52:25 2022
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2018, Oracle.  All rights reserved.
+
+SQL> conn sys as sysdba
+비밀번호 입력:
+연결되었습니다.
+SQL> ALTER USER system IDENTIFIED BY oracle;
+
+사용자가 변경되었습니다.
+
+SQL> commit;
+
+커밋이 완료되었습니다.

@@ -1,0 +1,4 @@
+ALTER SESSION SET "_ORACLE_SCRIPT"=true;
+CREATE USER spring0115 IDENTIFIED BY oracle;
+GRANT connect, resource, dba TO spring0115;
+commit;

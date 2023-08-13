@@ -1,0 +1,8 @@
+BoardController - board()
+BoardService - board()
+PageService
+BoardRepository - board(), boardCount()
+BoardMapper - board, boardCount
+boardForm.jsp  - 하단
+
+010-6315-6980
